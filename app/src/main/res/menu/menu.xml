@@ -2,10 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
+    <!--<item android:title="Recent">-->
 
-    <item android:title="Recent">
-
-    <menu>
+    <group android:checkableBehavior="single">
         <item android:icon="@drawable/ic_data_usage_black_24dp"
             android:title="Ram"
             android:id="@+id/item0"/>
@@ -21,8 +20,8 @@
         <item android:icon="@drawable/ic_data_usage_black_24dp"
             android:title="Ram"
             android:id="@+id/item4"/>
-    </menu>
-    </item>
+    </group>
+    <!--</item>-->
     <item android:title="Upcoming">
     <menu>
         <item android:icon="@drawable/ic_control_point_black_24dp"
