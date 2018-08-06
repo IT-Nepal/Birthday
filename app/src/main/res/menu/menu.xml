@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <item android:title="Recent"/>
+    <item android:title="Recent">
 
-    <group android:checkableBehavior="single">
+    <menu>
         <item android:icon="@drawable/ic_data_usage_black_24dp"
             android:title="Ram"
             android:id="@+id/item0"/>
@@ -21,15 +21,16 @@
         <item android:icon="@drawable/ic_data_usage_black_24dp"
             android:title="Ram"
             android:id="@+id/item4"/>
-    </group>
-
-    <item android:title="Upcoming"/>
-    <group android:checkableBehavior="single">
+    </menu>
+    </item>
+    <item android:title="Upcoming">
+    <menu>
         <item android:icon="@drawable/ic_control_point_black_24dp"
             android:title="Ram"
             android:id="@+id/item5"/>
         <item android:icon="@drawable/ic_data_usage_black_24dp"
             android:title="Ram"
             android:id="@+id/item6"/>
-    </group>
+    </menu>
+    </item>
 </menu>
